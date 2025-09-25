@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'ftltlt';
+  src: url('ftltlt-webfont.woff2') format('woff2'),
+       url('ftltlt-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'ftltlt', sans-serif;
+  margin: 20px;
+  background: #fff;
+  color: #0d0303;
+}
+h2 {
+  font-size: 56px;
+  color: #9000ff;
+  font-weight: bold;
+}
+p {
+  font-size: 28px;
+  color: #0d0303;
+  margin-bottom: 20px;
+}
+p:first-of-type {
+  font-weight: bold;
+}
+a {
+  color: #7272dd;
+  text-decoration: none;
+}
+.promo-img {
+  width: 400px;
+  border-radius: 20px;
+  margin-top: 20px;
+  transition: transform 0.3s ease;
+}
+.promo-img:hover {
+  transform: scale(1.05);
+}
